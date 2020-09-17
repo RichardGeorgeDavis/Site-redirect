@@ -1,6 +1,6 @@
 <?php
 /**
-Plugin Name: Home Corp GeoIP Redirect
+Plugin Name: GeoIP Redirect
 Version: 1.0
 Description: Depends on GeoIP Detection plugin and redirects based on country.
 Author: Richard George Davis
@@ -13,7 +13,7 @@ function geoip_redirect_header() {
     ?>
     <script>
         var baseUrl = 'https://' + window.location.hostname + '/'
-        var otherUrl = 'https://homecorp.local/'
+        var otherUrl = 'https://yourwebsite.com/'
        	var target = {
             All: baseUrl + 'south-africa/',
             // South Africa
